@@ -49,30 +49,48 @@ The outcome validated the approach: only two crashes across the entire productio
 The rebuilt system handles point queries (retrieve a specific trace by trace ID), list queries, aggregate queries, and time series aggregate queries. The diagram below shows the overall component topology.
 
 ```mermaid
-flowchart TD
-    RC[REST Client] --> TL[REST-gRPC Translation Layer]
-    TL --> FE[Frontend]
+---
+config:
+  layout: fixed
+---
+flowchart TB
+    RC["REST Client"] --> TL["REST-gRPC Translation Layer"]
+    TL --> FE["Frontend"]
+    K["Kafka"] --> ING["Ingestor"]
+    n1[" "] --> n2[" "]
+    n3[" "] --> n4[" "]
+    n5[" "] --> n6[" "]
+    n7[" "] --> n8[" "]
+    n9[" "] --> n10[" "]
+    n11[" "] --> n12[" "]
+    n13[" "] --> B3["Backend"]
+    n14[" "] --> B4["Backend"]
+    n15[" "] --> AGG1["Aggregator"]
+    n16[" "] --> AGG2["Aggregator"]
+    B1["Backend"]
+    B2["Backend"]
 
-    FE --> AGG1[Aggregator]
-    FE --> AGG2[Aggregator]
-
-    AGG1 --> B1[Backend]
-    AGG1 --> B2[Backend]
-    AGG2 --> B3[Backend]
-    AGG2 --> B4[Backend]
-
-    B1 --> ING[Ingestor]
-    B2 --> ING
-    B3 --> ING
-    B4 --> ING
-
-    K[Kafka] --> ING
-
+    n1@{ shape: anchor}
+    n2@{ shape: anchor}
+    n3@{ shape: anchor}
+    n4@{ shape: anchor}
+    n5@{ shape: anchor}
+    n6@{ shape: anchor}
+    n7@{ shape: anchor}
+    n8@{ shape: anchor}
+    n9@{ shape: anchor}
+    n10@{ shape: anchor}
+    n11@{ shape: anchor}
+    n12@{ shape: anchor}
+    n13@{ shape: anchor}
+    n14@{ shape: anchor}
+    n15@{ shape: anchor}
+    n16@{ shape: anchor}
     style FE fill:#2E74B5,color:#fff
+    style K fill:#404040,color:#fff
+    style ING fill:#1F3864,color:#fff
     style AGG1 fill:#4A9CC7,color:#fff
     style AGG2 fill:#4A9CC7,color:#fff
-    style ING fill:#1F3864,color:#fff
-    style K fill:#404040,color:#fff
 ```
 
 I led the rewrite of the following components:
