@@ -1,6 +1,6 @@
 # Writings
-- [[Feature] Multi-Profile Memory for Objective and Adversarial Reasoning)](blogs/blob/main/writings/letta_multi_profile_proposal.md) ([proposal to Letta](https://github.com/letta-ai/letta))
-- [Compute Once, Fan Out: The Universal Optimization Hiding in Every System](blogs/blob/main/writings/compute_once_fan_out.md)
-- [MemWeaver: A Vector Database That Knows Its Memory Cost Before You Deploy](blogs/blob/main/writings/memweaver_blog.md)
-- [Debugging Missing Kafka Acks: A Go Atomic Alignment Bug Hidden in Plain Sight](blogs/blob/main/writings/debugging-missing-kafka-acks.md)
-- [Debugging Stuck Kafka Partitions: How a Zookeeper Stale Read Was Waking Us Up at Night](blogs/blob/main/writings/debugging-stuck-kafka-partitions.md)
+- [[Feature] Multi-Profile Memory for Objective and Adversarial Reasoning)](writings/letta_multi_profile_proposal.md) ([proposal to Letta](https://github.com/letta-ai/letta))
+- [Compute Once, Fan Out: The Universal Optimization Hiding in Every System](writings/compute_once_fan_out.md)
+- [MemWeaver: A Vector Database That Knows Its Memory Cost Before You Deploy](writings/memweaver_blog.md)
+- [Debugging Missing Kafka Acks: A Go Atomic Alignment Bug Hidden in Plain Sight](writings/debugging-missing-kafka-acks.md)
+- [Debugging Stuck Kafka Partitions: How a Zookeeper Stale Read Was Waking Us Up at Night](writings/debugging-stuck-kafka-partitions.md)
