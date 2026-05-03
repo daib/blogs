@@ -1,5 +1,11 @@
 # [Feature] Multi-Profile Memory for Objective and Adversarial Reasoning
 
+## Background
+
+I came across the MemGPT paper while expanding my knowledge of AI agent memory systems. The approach to memory management resonated with problems I had already encountered using commercial AI agents in practice — which led me to Letta as the right foundation for this proposal.
+
+---
+
 ## The Problem
 
 AI agents with persistent memory are optimized for one thing: remembering you better over time. This is valuable for continuity but creates a subtle and underappreciated problem — the agent becomes increasingly biased toward your initial framing of any situation.
