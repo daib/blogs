@@ -1,5 +1,6 @@
 # News
 - [MemWeaver](https://github.com/daib/mem_weaver): Timeseries vector database with predictable memory usage was published for the first time! Still long way to go.
+- [SingleThread](https://github.com/daib/single_thread): Branching Thought — A Thinking Tool based on AI agents with memory is out.
 # Writings
 - [[Feature] Multi-Profile Memory for Objective and Adversarial Reasoning)](writings/letta_multi_profile_proposal.md) ([proposal to Letta](https://github.com/letta-ai/letta/issues/3332))
 - [Compute Once, Fan Out: The Universal Optimization Hiding in Every System](writings/compute_once_fan_out.md)
