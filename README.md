@@ -2,6 +2,7 @@
 - [MemWeaver](https://github.com/daib/mem_weaver): Timeseries vector database with predictable memory usage was published for the first time! Still long way to go.
 - [SingleThread](https://github.com/daib/single_thread): Branching Thought — A Thinking Tool based on AI agents with memory is out.
 # Writings
+- [Education Needs to Start With Why](writings/education_start_with_why.md)
 - [Active Data Structures](writings/active_data_structures.md)
 - [Snapshotting String Interning](writings/snapshotting_string_interning.md)
 - [[Feature] Multi-Profile Memory for Objective and Adversarial Reasoning)](writings/letta_multi_profile_proposal.md) ([proposal to Letta](https://github.com/letta-ai/letta/issues/3332))
